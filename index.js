@@ -460,10 +460,11 @@ let styles = StyleSheet.create({
 		width: width
 	},
 	pickerWrap: {
-		flexDirection: 'row'
+		flexGrow: 1,
+		flexDirection: 'row',
 	},
 	pickerWheel: {
-		flex: 1
+		flexGrow: 1,
 	},
 	pickerToolbar: {
 		height: 30,
@@ -475,7 +476,7 @@ let styles = StyleSheet.create({
 		alignItems: 'center'
 	},
 	pickerBtnView: {
-		flex: 1,
+		flexGrow: 1,
 		flexDirection: 'row',
 		justifyContent: 'flex-start',
 		alignItems: 'center'
